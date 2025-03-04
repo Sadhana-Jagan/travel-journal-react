@@ -1,4 +1,4 @@
-import marker from "/travel-journal-react/public/images/marker.png"
+import marker from "/images/marker.png"
 
 export default function Place(props){
     return (
