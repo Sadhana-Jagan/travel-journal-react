@@ -1,4 +1,4 @@
-import globe from "/travel-journal-react/public/images/globe.png"
+import globe from "/images/globe.png"
 
 export default function header(){
     return (
