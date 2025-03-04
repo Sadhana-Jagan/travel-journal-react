@@ -1,3 +1,5 @@
+import marker from "/travel-journal-react/public/images/marker.png"
+
 export default function Place(props){
     return (
         <>
@@ -5,7 +7,7 @@ export default function Place(props){
             <img className="place-img" src={props.img.src} alt={props.img.alt}/>
             <div>
                 <div className="maps">
-                    <img className="marker" src="/travel-journal-react/public/images/marker.png" alt="marker"/>
+                    <img className="marker" src={marker} alt="marker"/>
                     <h4 className="place-text">{props.country}</h4>
                     <a href={props.googleMapslink}>View on Google Maps</a>
                 </div>
